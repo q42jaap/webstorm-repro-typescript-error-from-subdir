@@ -1,0 +1,16 @@
+{
+  "name": "webstorm-repro-typescript-error-from-subdir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc --build packages/package1/tsconfig.json"
+
+  },
+  "author": "",
+  "license": "ISC"
+}
